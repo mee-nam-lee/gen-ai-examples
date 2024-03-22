@@ -1,2 +1,0 @@
-
-//# sourceMappingURL=methodsInterface.js.map
