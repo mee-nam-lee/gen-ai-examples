@@ -1,0 +1,1 @@
+gcloud functions deploy explore-assistant-endpoint-prod --region=us-central1 --runtime=python310  
