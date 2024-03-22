@@ -13,6 +13,7 @@
 
 * cloud-function
   * question을 input으로 받아서 LLM을 통해 Looker의 Model Name, Explore Name, Query ID를 리턴한다.
+  * LLM 기반으로 Looker Model을 참조하여 Looker Query를 생성하는 부분은 [kpyopark의 코드](https://github.com/kpyopark/looker_palm_integration/blob/main/lookml_explorer.ipynb)를 사용하였다.
   * 전제 조건 : 유사도 검색을 위해 Looker Model이 사전 Embedding되어 Embedding Vector에 저장되어 있어야 한다. (이 예제이셔는 BigQuery를 Embedding Vector DB로 사용하였다)
 
 * Cloud Fuctions Deploy
