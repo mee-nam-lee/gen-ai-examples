@@ -131,7 +131,7 @@ const ExploreAssistant = () => {
     data[prompt !== undefined ? prompt : query] = { message: prompt !== undefined ? prompt : query}
     await extensionSDK.localStorageSetItem(`chat_history`,JSON.stringify(data))
     setData(data)
-    setSubmit(true)
+    //setSubmit(true)
     fetchData(prompt)
   }
 
