@@ -311,7 +311,6 @@ const ExploreAssistant = () => {
                 height: '100vh',
                 width: '100%',
                 backgroundColor: '#f7f7f7',
-                zIndex: 1,
               }}
             >
                 <div
@@ -329,7 +328,7 @@ const ExploreAssistant = () => {
                     justifyContent:'center',
                     alignItems:'center',
                     position:'absolute',
-                    zIndex:!exploreLoading ? 1 : -1
+                    zIndex: -1
                   }}>
                     <BardLogo />
                   </div>

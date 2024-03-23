@@ -85,6 +85,12 @@ module.exports = {
   },
   devtool: 'source-map',
   plugins: [
+    /*
+    new webpack.DefinePlugin({
+      'process.env.LOOKER_ENDPOINT': JSON.stringify(process.env.LOOKER_ENDPOINT),
+      'process.env.FUNCTION_ENDPOINT': JSON.stringify(process.env.FUNCTION_ENDPOINT)
+    }),
+    */
     new BundleAnalyzerPlugin({
       analyzerMode: process.env.ANALYZE_MODE || 'disabled',
     }),

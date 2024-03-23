@@ -1,4 +1,3 @@
-
 {
   "name": "explore-assistant",
   "version": "0.1.0",
@@ -9,7 +8,7 @@
     "analyze": "export ANALYZE_MODE=static && npm run build",
     "build": "export BABEL_ENV=build && webpack --config webpack.prod.js",
     "clean": "rm -rf dist && rm -f .eslintcache",
-    "start": "webpack serve --hot --server-type https  --port 8080 --config webpack.develop.js", 
+    "start": "webpack serve --hot --server-type https  --port 8080 --config webpack.develop.js",
     "prebuild": "npm run clean",
     "tsc": "tsc",
     "lint:es": "eslint 'src/**/*.ts{,x}' --cache",
@@ -31,6 +30,7 @@
     "axios": "^0.21.2",
     "lodash": "^4.17.21",
     "p-reduce": "^3.0.0",
+    "process": "^0.11.10",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-is": "^16.13.1",
